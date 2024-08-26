@@ -1,0 +1,81 @@
+.about-banner{
+    height: 300px;
+    width: 100%;
+    background:linear-gradient(-55deg, rgb(60, 51, 232), rgb(25, 21, 116), rgb(103, 96, 237), rgb(147, 142, 233) );
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.about-banner-in{
+    /* height: 20rem; */
+    position: absolute;
+    /* padding: 25px, 50px, 75px */
+    /* top:40px;
+    right: 300px */
+
+}
+.about-banner-in img{
+    /* width: 600px;
+    height: 300px;
+    margin: auto; */
+    height: 20rem;
+    border-radius: 10px;
+}
+.banner-interior h4{
+    margin: 20px;
+    color:rgb(25, 21, 116);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+.banner-interior p{
+    margin: 20px;
+    color:rgb(25, 21, 116);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.footerblock{
+    min-height: 300px;
+    background:rgb(16, 14, 45);
+    margin-top: 20px
+}
+.footerlogo,.footerconttext, .footerdata, .quicklink, .links li{
+    text-align: start;
+}
+.footercont{
+    color:white;
+}
+.footerconttext p, .footerdata p, .quicklink p, .links li a{
+color:#fff;
+text-transform: uppercase;
+}
+.links{
+    padding-left:0;
+}
+.links li{
+    list-style: none;
+}
+.footer-row{
+    padding:60px 0;
+}
+.footercont, .footerdata, .lastcol{
+    padding:20px 5px;
+}
+.footerlogo, .quicklink{
+    margin-bottom:15px;
+}
+
+@media(max-width:991px){
+    .footerlogo, .footerconttext, .footerdata, .quicklink, .links li{
+        text-align: center;
+    }
+}
